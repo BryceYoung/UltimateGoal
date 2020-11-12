@@ -9,6 +9,8 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 @TeleOp(name = "TestOpMode", group = "Linear Opmode")
 public class TestOpMode extends LinearOpMode {
     // Declare OpMode members.
+
+    private  int integer;
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor motor = null;
 
